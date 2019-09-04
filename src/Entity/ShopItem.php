@@ -17,17 +17,17 @@ class ShopItem
     private $id;
 
     /**
-     * @Column(type="string", nullable=false", lenght=20)
+     * @ORM\Column(type="string", nullable=false, length=20)
      */
     private $itemName;
 
     /**
-     * @Column(type="string", lenght=1000")
+     *@ORM\Column(type="string", length=2000, nullable=true)
      */
     private $itemDescribtion;
 
     /**
-     * @Column(type="integer", nullable=false" )
+     * @ORM\Column(type="integer", nullable=false )
      */
     private $itemPrice;
 
