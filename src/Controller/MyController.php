@@ -13,6 +13,6 @@
          * 
          */
         public function welcome(){
-            return $this->render('base.html.twig');
+            return $this->render('mytemplates/mytemplate.html.twig');
         }
     }
